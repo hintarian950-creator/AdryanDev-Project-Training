@@ -2,15 +2,55 @@ body{
     margin: 0;
     scroll-behavior: smooth;
     background-color: rgb(32, 32, 32);
+    color: white;
 }
 nav{
     background-color: rgb(57, 57, 57);
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
-nav, a{
+.link{
+    display: flex;
+    font-family: "Space Grotesk", sans-serif;
+    margin-left: auto;
+    gap: 20px;
+}
+a{
     color: white;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.brand{
+    display: flex;
+    font-weight: bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-size: 20px;
+}
+.deskripsi{
+    margin-left: 50px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-top: 15px;
+}
+.Biodata{
+    color: rgb(133, 130, 130);
+}
+.dashboard{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.foto-profil{
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(0, 0, 0);
 }
