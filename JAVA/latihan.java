@@ -2,7 +2,7 @@ public class latihan{
     public static void main(String[] args) {
 
         System.out.println("=== TIPE DATA ===");
-
+        
         String nama = "Ryan Hinta";
         int umur = 18;
         float tinggi = 1.65f;
