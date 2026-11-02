@@ -134,11 +134,35 @@ public class latihan{
         }
 
         // Logical Operators in Conditions (NOT !)
-        boolean sudahLogin = false;
+        boolean sudahLogin = false
+        ;
         if(!sudahLogin){
             System.out.println("Belum Login");
         }else{
             System.out.println("Sudah login");
         }
+
+        
+        System.out.println("=== SWITCH ===");
+
+        int hari = 9;
+        switch(hari){
+            case 1:
+                System.out.println("Senin");
+                break;
+            case 2:
+                System.out.println("Selasa");
+                break;
+            case 3:
+                System.out.println("Rabu");
+                break;
+            case 4:
+                System.out.println("Kamis");
+                break;
+            default:
+                System.out.println("Tidak ada");
+        }   
+
     }
-} 
+}
+ 
