@@ -157,6 +157,7 @@ public class latihan{
             case "SELESAI":
                 System.out.println("Pesanan Telah Tiba");
                 break;
+
         }
     }
 }
