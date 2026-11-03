@@ -145,24 +145,19 @@ public class latihan{
         
         System.out.println("=== SWITCH ===");
 
-        int hari = 9;
-        switch(hari){
-            case 1:
-                System.out.println("Senin");
+        
+        String status = "SELESAI";
+        switch(status){
+            case "PROSES":
+                System.out.println("Pesanan Sedang Di proses");
                 break;
-            case 2:
-                System.out.println("Selasa");
+            case "DIKIRIM":
+                System.out.println("Pesanan Dikirim");
                 break;
-            case 3:
-                System.out.println("Rabu");
+            case "SELESAI":
+                System.out.println("Pesanan Telah Tiba");
                 break;
-            case 4:
-                System.out.println("Kamis");
-                break;
-            default:
-                System.out.println("Tidak ada");
-        }   
-
+        }
     }
 }
  

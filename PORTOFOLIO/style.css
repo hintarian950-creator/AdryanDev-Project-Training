@@ -21,6 +21,7 @@ nav{
 a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 .brand{
     display: flex;
@@ -28,6 +29,11 @@ a{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 15px;
     font-size: 20px;
+}
+.nama{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }
 .deskripsi{
     margin-left: 50px;
@@ -53,4 +59,7 @@ a{
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 5px 10px 10px rgb(0, 0, 0);
+}
+.cv-button{
+    margin-left: 50px;
 }
